@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Property Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Real Estate Property Booking</h1>
+
+    <input type="text" id="location" placeholder="Search by location">
+    <button type="button" onclick="searchProperty()">Search</button>
+
+    <div id="properties"></div>
+
+    <h2>Book a Property</h2>
+    <form id="bookingForm">
+        <input type="text" id="name" placeholder="Customer name" required>
+        <input type="tel" id="phone" placeholder="Phone number" required>
+        <input type="email" id="email" placeholder="Email address" required>
+        <input type="date" id="date" required>
+        <button type="submit">Confirm Booking</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

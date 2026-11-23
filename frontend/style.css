@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    background:white;
+    text-align: center;
+}
+h1 {
+    background:blue;
+    color: white;
+    padding: 20px;
+}
+input {
+    padding: 12px;
+    margin: 10px;
+}
+button {
+    padding: 12px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.property {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
